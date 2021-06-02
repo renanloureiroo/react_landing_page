@@ -1,5 +1,11 @@
+import { Heading } from '../../components/Heading';
+import * as Styled from './styles';
 function Home() {
-  return <h1>Oi</h1>;
+  return (
+    <Styled.Wrapper>
+      <Heading>Olá Mundo!</Heading>
+    </Styled.Wrapper>
+  );
 }
 
 export default Home;
