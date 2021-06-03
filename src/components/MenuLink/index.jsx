@@ -1,4 +1,4 @@
-import * as Styled from './styled';
+import * as Styled from './styles';
 import P from 'prop-types';
 
 export const MenuLink = ({ children, link, newTab = false }) => {
