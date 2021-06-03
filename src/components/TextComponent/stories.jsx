@@ -5,22 +5,23 @@ export default {
   component: TextComponent,
   args: {
     children:
-      'Olá pessoas do mundo inteiro, como vocês estão, nesta madrugada de terça-feira?!',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque deserunt provident fugiat facere eveniet reiciendis nesciunt reprehenderit, sunt, maiores perspiciatis at non animi dolorum est, nostrum et error. Maiores, modi?',
   },
-  argTypes: {
+  agrTypes: {
     children: { type: 'string' },
   },
   parameters: {
-    backgrounds: {
+    background: {
       default: 'dark',
     },
   },
 };
+
 export const Dark = (args) => <TextComponent {...args} />;
 export const Light = (args) => <TextComponent {...args} />;
 
 Light.parameters = {
-  backgrounds: {
+  background: {
     default: 'light',
   },
 };
