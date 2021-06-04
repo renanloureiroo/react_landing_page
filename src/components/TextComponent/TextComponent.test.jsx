@@ -12,7 +12,6 @@ describe('< TextComponent/>', () => {
     const { container } = renderTheme(<TextComponent>texto</TextComponent>);
     expect(container.firstChild).toMatchInlineSnapshot(`
       .c0 {
-        color: #0A1128;
         font-size: 1.6rem;
       }
 
