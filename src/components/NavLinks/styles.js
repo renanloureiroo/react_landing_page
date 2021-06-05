@@ -3,7 +3,7 @@ import styled, { css } from 'styled-components';
 export const Container = styled.nav`
   ${({ theme }) => css`
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
 
     @media ${theme.media.lteMedium} {
       flex-flow: column nowrap;

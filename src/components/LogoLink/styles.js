@@ -8,6 +8,7 @@ export const Container = styled.a`
 
     & > img {
       max-height: 3rem;
+      width: 100%;
     }
   `}
 `;
