@@ -2,7 +2,6 @@
 
 exports[`<Heading/> should render with default values 1`] = `
 .c0 {
-  color: #0A1128;
   font-size: 6.4rem;
   text-transform: none;
 }

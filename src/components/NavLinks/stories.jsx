@@ -4,7 +4,7 @@ export default {
   title: 'NavLinks',
   component: NavLinks,
   args: {
-    links: links,
+    Links: links,
   },
 };
 
