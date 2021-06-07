@@ -1,13 +1,13 @@
 import { GridTwoColumns } from '.';
 
 export default {
-  title: 'GridTwoColumns',
+  title: 'GridTwoColumn',
   component: GridTwoColumns,
   args: {
-    title: 'Grid Two Columns',
-    content:
-      ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla dolor illo aliquam? Id rem dolore esse? Provident error, modi eaque natus quo eius voluptas inventore ad alias maxime doloribus iusto.',
-    img: 'assets/images/javascript.svg',
+    title: 'Grid Two Column',
+    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat in facere aspernatur, recusandae molestias sapiente dicta nulla inventore veritatis eligendi distinctio temporibus, qui obcaecati earum! Sunt ullam illum neque perspiciatis.',
+    srcImg: 'assets/images/javascript.svg',
+    bg: true,
   },
 };
 

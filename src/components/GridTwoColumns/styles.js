@@ -1,37 +1,39 @@
 import styled, { css } from 'styled-components';
+import { Title } from '../Heading/styles';
 
 export const Container = styled.div`
   ${({ theme }) => css`
     display: grid;
-    grid-template-columns: 1fr 1.5fr;
-    gap: ${theme.sizes.small};
+    grid-template-columns: 1fr 2fr;
+    gap: ${theme.sizes.medium};
 
     @media ${theme.media.lteMedium} {
       grid-template-columns: 1fr;
-    } ;
+    }
+
+    ${Title} {
+      margin-bottom: ${theme.spacing.large};
+    }
   `}
 `;
 
 export const TextContainer = styled.div`
   ${({ theme }) => css`
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-
-    & h1 {
-      margin-bottom: ${theme.sizes.small};
+    @media ${theme.media.lteMedium} {
+      margin-bottom: ${theme.spacing.large};
     }
   `}
 `;
-export const ImgContainer = styled.div`
+export const ImageContainer = styled.div`
   ${() => css`
-    width: 100%;
     height: 100%;
-    margin: 0 auto;
+    width: 100%;
+  `}
+`;
 
-    & img {
-      width: 100%;
-      height: 100%;
-    }
+export const Image = styled.img`
+  ${() => css`
+    height: 100%;
+    width: 100%;
   `}
 `;

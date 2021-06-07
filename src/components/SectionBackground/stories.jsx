@@ -1,27 +1,23 @@
 import { SectionBackground } from '.';
 import { Heading } from '../Heading';
-import { SectionContainer } from '../SectionContainer';
 import { TextComponent } from '../TextComponent';
 
 export default {
   title: 'SectionBackground',
   component: SectionBackground,
   args: {
-    background: true,
     children: (
-      <SectionContainer>
-        <Heading>SectionBackground</Heading>
+      <>
+        <Heading>Section Background</Heading>
         <TextComponent>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
-          cupiditate unde dolorum! Aliquid voluptatum, perferendis perspiciatis
-          ullam iusto quaerat distinctio veniam molestias fuga natus blanditiis
-          libero molestiae maxime, iure architecto.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Non sit animi
+          numquam laudantium blanditiis sed hic aspernatur explicabo eveniet
+          illum dolorem dolorum veritatis, reprehenderit eligendi natus enim
+          mollitia praesentium voluptatem!
         </TextComponent>
-      </SectionContainer>
+      </>
     ),
-  },
-  argTypes: {
-    children: { type: 'string' },
+    bg: true,
   },
 };
 
