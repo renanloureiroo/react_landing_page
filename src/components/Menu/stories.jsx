@@ -1,5 +1,5 @@
 import { Menu } from '.';
-import links from './mock';
+import links from '../NavLinks/mock';
 
 export default {
   title: 'Menu',
