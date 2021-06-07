@@ -8,7 +8,7 @@ export default {
   args: {
     children: (
       <>
-        <Heading>Section Background</Heading>
+        <Heading as="h2">Section Background</Heading>
         <TextComponent>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Non sit animi
           numquam laudantium blanditiis sed hic aspernatur explicabo eveniet
