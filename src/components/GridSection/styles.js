@@ -27,6 +27,7 @@ export const GridContainer = styled.div`
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: ${theme.spacing.medium};
+    counter-reset: grid-counter;
 
     @media ${theme.media.lteMedium} {
       grid-template-columns: 1fr;
@@ -34,7 +35,22 @@ export const GridContainer = styled.div`
   `}
 `;
 export const Grid = styled.div`
-  ${() => css`
+  ${({ theme }) => css`
     max-width: 36rem;
+    ${Title} {
+      position: relative;
+      left: 5rem;
+    }
+
+    ${Title}::before {
+      counter-increment: grid-counter;
+      content: counter(grid-counter);
+      position: absolute;
+      font-size: ${theme.spacing.xhuge};
+      font-weight: bold;
+      transform: rotate(10deg);
+      left: -5rem;
+      top: -2rem;
+    }
   `}
 `;
