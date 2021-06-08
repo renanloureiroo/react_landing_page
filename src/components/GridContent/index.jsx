@@ -5,18 +5,21 @@ import { SectionBackground } from '../SectionBackground';
 import { Heading } from '../Heading';
 import { TextComponent } from '../TextComponent';
 
-export const GridOneColumn = ({ title, content }) => {
+export const GridContent = ({ title, html, bg }) => {
   return (
-    <SectionBackground>
+    <SectionBackground bg={bg}>
       <Styled.Container>
-        <Heading>{title}</Heading>
-        <TextComponent>{content}</TextComponent>
+        <Heading as="h2">{title}</Heading>
+        <Styled.Html>
+          <TextComponent>{html}</TextComponent>
+        </Styled.Html>
       </Styled.Container>
     </SectionBackground>
   );
 };
 
-GridOneColumn.propTypes = {
+GridContent.propTypes = {
   title: P.string.isRequired,
-  content: P.string.isRequired,
+  html: P.string.isRequired,
+  bg: P.bool,
 };
