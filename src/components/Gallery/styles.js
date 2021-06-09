@@ -11,7 +11,7 @@ export const TextContainer = styled.div`
 export const GridContainer = styled.div`
   ${({ theme }) => css`
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(36rem, 1fr));
     justify-content: center;
     gap: ${theme.spacing.medium};
 
@@ -20,6 +20,7 @@ export const GridContainer = styled.div`
       height: 100%;
       margin: 0 auto;
       overflow: hidden;
+      border-radius: 50%;
     }
 
     @media ${theme.media.lteMedium} {
@@ -28,8 +29,8 @@ export const GridContainer = styled.div`
   `}
 `;
 export const Grid = styled.img`
-  transition: all 300ms ease-in-out;
   ${() => css`
+    transition: all 300ms ease-in-out;
     width: 100%;
     height: 100%;
 
