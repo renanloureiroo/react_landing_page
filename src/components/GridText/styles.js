@@ -25,8 +25,8 @@ export const TextContainer = styled.div`
 export const GridContainer = styled.div`
   ${({ theme }) => css`
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: ${theme.spacing.medium};
+    grid-template-columns: repeat(auto-fill, minmax(28rem, 1fr));
+    gap: ${theme.spacing.large};
     counter-reset: grid-counter;
 
     @media ${theme.media.lteMedium} {
@@ -36,7 +36,7 @@ export const GridContainer = styled.div`
 `;
 export const Grid = styled.div`
   ${({ theme }) => css`
-    max-width: 36rem;
+    margin-bottom: ${theme.spacing.medium};
     ${Title} {
       position: relative;
       left: 5rem;
