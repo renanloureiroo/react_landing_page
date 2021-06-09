@@ -1,11 +1,11 @@
 import { Gallery } from '.';
 
+import mock from './mock';
+
 export default {
   title: 'Gallery',
   component: Gallery,
-  args: {
-    children: 'Gallery',
-  },
+  args: mock,
 };
 
 export const Template = (args) => {
