@@ -9,16 +9,14 @@ export const Gallery = ({ bg = false, title, description, images = [] }) => {
   return (
     <SectionBackground bg={bg}>
       <Styled.Container>
-        <Styled.TextContainer>
-          <Heading>{title}</Heading>
-          <TextComponent>{description}</TextComponent>
-        </Styled.TextContainer>
+        <Heading>{title}</Heading>
+        <TextComponent>{description}</TextComponent>
         <Styled.GridContainer>
           {images.map((image) => {
             return (
-              <div key={image.id}>
-                <Styled.Grid src={image.srcImg} alt={image.text} />
-              </div>
+              <Styled.GridElement key={image.id}>
+                <Styled.Image src={image.srcImg} alt={image.text} />
+              </Styled.GridElement>
             );
           })}
         </Styled.GridContainer>

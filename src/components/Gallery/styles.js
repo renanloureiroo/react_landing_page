@@ -1,41 +1,39 @@
 import styled, { css } from 'styled-components';
+import { Title } from '../Heading/styles';
+import { Para } from '../TextComponent/styles';
 
 export const Container = styled.div`
-  ${() => css``}
-`;
-export const TextContainer = styled.div`
   ${({ theme }) => css`
-    margin-bottom: ${theme.spacing.huge};
+    ${Title} {
+      margin-bottom: ${theme.spacing.small};
+    }
+    ${Para} {
+      margin-bottom: ${theme.spacing.large};
+    }
   `}
 `;
 export const GridContainer = styled.div`
   ${({ theme }) => css`
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(36rem, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(28rem, 1fr));
     justify-content: center;
-    gap: ${theme.spacing.medium};
-
-    & div {
-      width: 100%;
-      height: 100%;
-      margin: 0 auto;
-      overflow: hidden;
-      border-radius: 50%;
-    }
-
-    @media ${theme.media.lteMedium} {
-      grid-template-columns: 1fr;
-    }
+    gap: ${theme.spacing.large};
   `}
 `;
-export const Grid = styled.img`
+export const GridElement = styled.div`
+  ${() => css`
+    overflow: hidden;
+    border-radius: 50%;
+  `}
+`;
+export const Image = styled.img`
   ${() => css`
     transition: all 300ms ease-in-out;
     width: 100%;
     height: 100%;
 
     &:hover {
-      transform: scale(1.2) rotate(7deg);
+      transform: scale(1.2) rotate(10deg);
     }
   `}
 `;

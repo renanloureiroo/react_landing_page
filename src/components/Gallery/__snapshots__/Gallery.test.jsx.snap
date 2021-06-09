@@ -1,38 +1,50 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Gallery /> should render 1`] = `
-.c2 {
-  margin-bottom: 5.6rem;
+.c4 {
+  font-size: 6.4rem;
+  text-transform: uppercase;
 }
 
-.c5 {
+.c6 {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+.c2 .c3 {
+  margin-bottom: 1.6rem;
+}
+
+.c2 .c5 {
+  margin-bottom: 3.2rem;
+}
+
+.c7 {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(auto-fill,minmax(28rem,1fr));
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  gap: 2.4rem;
+  gap: 3.2rem;
 }
 
-.c5 div {
-  width: 100%;
-  height: 100%;
-  margin: 0 auto;
+.c8 {
   overflow: hidden;
+  border-radius: 50%;
 }
 
-.c6 {
+.c9 {
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
   width: 100%;
   height: 100%;
 }
 
-.c6:hover {
-  -webkit-transform: scale(1.2) rotate(7deg);
-  -ms-transform: scale(1.2) rotate(7deg);
-  transform: scale(1.2) rotate(7deg);
+.c9:hover {
+  -webkit-transform: scale(1.2) rotate(10deg);
+  -ms-transform: scale(1.2) rotate(10deg);
+  transform: scale(1.2) rotate(10deg);
 }
 
 .c1 {
@@ -56,24 +68,8 @@ exports[`<Gallery /> should render 1`] = `
   align-items: center;
 }
 
-.c3 {
-  font-size: 6.4rem;
-  text-transform: uppercase;
-}
-
-.c4 {
-  font-size: 1.6rem;
-  line-height: 2.4rem;
-}
-
 @media (max-width:768px) {
-  .c5 {
-    grid-template-columns: 1fr;
-  }
-}
-
-@media (max-width:768px) {
-  .c3 {
+  .c4 {
     font-size: 4rem;
   }
 }
@@ -85,71 +81,81 @@ exports[`<Gallery /> should render 1`] = `
     class="c1"
   >
     <div
-      class=""
+      class="c2"
     >
-      <div
-        class="c2"
+      <h1
+        class="c3 c4"
       >
-        <h1
-          class="c3"
-        >
-          Gallery
-        </h1>
-        <p
-          class="c4"
-        >
-          Uma descrição sobre o conteúdo da minha galeria
-        </p>
-      </div>
-      <div
-        class="c5"
+        Gallery
+      </h1>
+      <p
+        class="c5 c6"
       >
-        <div>
+        Uma descrição sobre o conteúdo da minha galeria
+      </p>
+      <div
+        class="c7"
+      >
+        <div
+          class="c8"
+        >
           <img
             alt="foto aleatória"
-            class="c6"
+            class="c9"
             src="https://source.unsplash.com/random/360x360?r=1"
           />
         </div>
-        <div>
+        <div
+          class="c8"
+        >
           <img
             alt="foto aleatória"
-            class="c6"
+            class="c9"
             src="https://source.unsplash.com/random/360x360?r=2"
           />
         </div>
-        <div>
+        <div
+          class="c8"
+        >
           <img
             alt="foto aleatória"
-            class="c6"
+            class="c9"
             src="https://source.unsplash.com/random/360x360?r=3"
           />
         </div>
-        <div>
+        <div
+          class="c8"
+        >
           <img
             alt="foto aleatória"
-            class="c6"
+            class="c9"
             src="https://source.unsplash.com/random/360x360?r=4"
           />
         </div>
-        <div>
+        <div
+          class="c8"
+        >
           <img
             alt="foto aleatória"
-            class="c6"
+            class="c9"
             src="https://source.unsplash.com/random/360x360?r=5"
           />
         </div>
-        <div>
+        <div
+          class="c8"
+        >
           <img
             alt="foto aleatória"
-            class="c6"
+            class="c9"
             src="https://source.unsplash.com/random/360x360?r=6"
           />
         </div>
-        <div>
+        <div
+          class="c8"
+        >
           <img
             alt="foto aleatória"
-            class="c6"
+            class="c9"
             src="https://source.unsplash.com/random/360x360?r=7"
           />
         </div>
