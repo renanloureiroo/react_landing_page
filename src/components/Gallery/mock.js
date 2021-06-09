@@ -32,5 +32,10 @@ export default {
       srcImg: 'https://source.unsplash.com/random/360x360?r=6',
       text: 'foto aleatória',
     },
+    {
+      id: 7,
+      srcImg: 'https://source.unsplash.com/random/360x360?r=7',
+      text: 'foto aleatória',
+    },
   ],
 };
