@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Gallery /> should render 1`] = `
+.c2 {
+  margin-bottom: 5.6rem;
+}
+
+.c5 {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 2.4rem;
+}
+
+.c5 div {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.c6 {
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  width: 100%;
+  height: 100%;
+}
+
+.c6:hover {
+  -webkit-transform: scale(1.2) rotate(7deg);
+  -ms-transform: scale(1.2) rotate(7deg);
+  transform: scale(1.2) rotate(7deg);
+}
+
+.c1 {
+  max-width: 120rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 3.2rem;
+}
+
+.c0 {
+  background: #fff;
+  color: #0A1128;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 {
+  font-size: 6.4rem;
+  text-transform: uppercase;
+}
+
+.c4 {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+@media (max-width:768px) {
+  .c5 {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width:768px) {
+  .c3 {
+    font-size: 4rem;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class=""
+    >
+      <div
+        class="c2"
+      >
+        <h1
+          class="c3"
+        >
+          Gallery
+        </h1>
+        <p
+          class="c4"
+        >
+          Uma descrição sobre o conteúdo da minha galeria
+        </p>
+      </div>
+      <div
+        class="c5"
+      >
+        <div>
+          <img
+            alt="foto aleatória"
+            class="c6"
+            src="https://source.unsplash.com/random/360x360?r=1"
+          />
+        </div>
+        <div>
+          <img
+            alt="foto aleatória"
+            class="c6"
+            src="https://source.unsplash.com/random/360x360?r=2"
+          />
+        </div>
+        <div>
+          <img
+            alt="foto aleatória"
+            class="c6"
+            src="https://source.unsplash.com/random/360x360?r=3"
+          />
+        </div>
+        <div>
+          <img
+            alt="foto aleatória"
+            class="c6"
+            src="https://source.unsplash.com/random/360x360?r=4"
+          />
+        </div>
+        <div>
+          <img
+            alt="foto aleatória"
+            class="c6"
+            src="https://source.unsplash.com/random/360x360?r=5"
+          />
+        </div>
+        <div>
+          <img
+            alt="foto aleatória"
+            class="c6"
+            src="https://source.unsplash.com/random/360x360?r=6"
+          />
+        </div>
+        <div>
+          <img
+            alt="foto aleatória"
+            class="c6"
+            src="https://source.unsplash.com/random/360x360?r=7"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
