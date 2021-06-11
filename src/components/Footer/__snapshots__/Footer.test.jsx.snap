@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> should render 1`] = `
+.c2 {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+.c1 {
+  text-align: center;
+}
+
+.c1 a {
+  color: inherit;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+
+.c0 {
+  max-width: 120rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 3.2rem;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <p
+      class="c2"
+    >
+      <p>
+        <a
+          href="https://www.instagram.com/renanloureiroo"
+        >
+           @renanloureiroo
+        </a>
+        <br />
+         
+      </p>
+    </p>
+  </div>
+</div>
+`;
