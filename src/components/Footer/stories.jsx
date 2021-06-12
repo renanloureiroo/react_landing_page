@@ -1,11 +1,10 @@
-import { Footer } from './Footer';
+import { Footer } from './index';
 
 export default {
   title: 'Footer',
   component: Footer,
   args: {
-    children:
-      '<p><a href="https://www.instagram.com/renanloureiroo">&nbsp;@renanloureiroo</a><br>&nbsp;</p>',
+    html: '<p><a href="https://www.instagram.com/renanloureiroo">&nbsp;@renanloureiroo</a><br>&nbsp;</p>',
   },
 };
 
