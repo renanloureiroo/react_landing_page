@@ -1,5 +1,5 @@
 import { renderTheme } from '../../styles/renderTheme';
-import { Footer } from './Footer';
+import { Footer } from './index';
 
 describe('<Footer />', () => {
   const html =

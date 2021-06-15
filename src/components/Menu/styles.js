@@ -10,7 +10,8 @@ const menuVisible = () => css`
 
 export const Container = styled.div`
   ${({ theme, visible }) => css`
-    position: fixed;
+    background: ${theme.colors.white};
+    position: sticky;
     z-index: 5;
     top: 0;
     right: 0;
@@ -24,6 +25,7 @@ export const Container = styled.div`
     }
 
     @media ${theme.media.lteMedium} {
+      position: fixed;
       min-height: 100vh;
       margin-bottom: 0;
       visibility: hidden;
@@ -51,6 +53,7 @@ export const MenuContainer = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: ${theme.spacing.small} 0;
 
     @media ${theme.media.lteMedium} {
       display: block;
